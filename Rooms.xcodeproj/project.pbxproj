@@ -15,6 +15,8 @@
 		32AAB7E426753888008F1634 /* RoomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAB7E326753888008F1634 /* RoomsUITests.swift */; };
 		32AAB7F826753B4B008F1634 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAB7F726753B4B008F1634 /* Room.swift */; };
 		32AAB81726754287008F1634 /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AAB81626754287008F1634 /* Rooms.xcassets */; };
+		32AAB81F26755413008F1634 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAB81E26755412008F1634 /* RoomDetail.swift */; };
+		32AAB82426756032008F1634 /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAB82326756032008F1634 /* RoomStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		32AAB7E526753888008F1634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32AAB7F726753B4B008F1634 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		32AAB81626754287008F1634 /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
+		32AAB81E26755412008F1634 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		32AAB82326756032008F1634 /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				32AAB7C626753886008F1634 /* RoomsApp.swift */,
 				32AAB7C826753886008F1634 /* ContentView.swift */,
+				32AAB81E26755412008F1634 /* RoomDetail.swift */,
 				32AAB7F726753B4B008F1634 /* Room.swift */,
+				32AAB82326756032008F1634 /* RoomStore.swift */,
 				32AAB7CA26753888008F1634 /* Assets.xcassets */,
 				32AAB81626754287008F1634 /* Rooms.xcassets */,
 				32AAB7CF26753888008F1634 /* Info.plist */,
@@ -266,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AAB82426756032008F1634 /* RoomStore.swift in Sources */,
 				32AAB7C926753886008F1634 /* ContentView.swift in Sources */,
 				32AAB7C726753886008F1634 /* RoomsApp.swift in Sources */,
 				32AAB7F826753B4B008F1634 /* Room.swift in Sources */,
+				32AAB81F26755413008F1634 /* RoomDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
