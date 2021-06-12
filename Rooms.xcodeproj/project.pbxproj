@@ -13,6 +13,8 @@
 		32AAB7CE26753888008F1634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AAB7CD26753888008F1634 /* Preview Assets.xcassets */; };
 		32AAB7D926753888008F1634 /* RoomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAB7D826753888008F1634 /* RoomsTests.swift */; };
 		32AAB7E426753888008F1634 /* RoomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAB7E326753888008F1634 /* RoomsUITests.swift */; };
+		32AAB7F826753B4B008F1634 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAB7F726753B4B008F1634 /* Room.swift */; };
+		32AAB81726754287008F1634 /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AAB81626754287008F1634 /* Rooms.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		32AAB7DF26753888008F1634 /* RoomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AAB7E326753888008F1634 /* RoomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsUITests.swift; sourceTree = "<group>"; };
 		32AAB7E526753888008F1634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AAB7F726753B4B008F1634 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		32AAB81626754287008F1634 /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,9 @@
 			children = (
 				32AAB7C626753886008F1634 /* RoomsApp.swift */,
 				32AAB7C826753886008F1634 /* ContentView.swift */,
+				32AAB7F726753B4B008F1634 /* Room.swift */,
 				32AAB7CA26753888008F1634 /* Assets.xcassets */,
+				32AAB81626754287008F1634 /* Rooms.xcassets */,
 				32AAB7CF26753888008F1634 /* Info.plist */,
 				32AAB7CC26753888008F1634 /* Preview Content */,
 			);
@@ -235,6 +241,7 @@
 			files = (
 				32AAB7CE26753888008F1634 /* Preview Assets.xcassets in Resources */,
 				32AAB7CB26753888008F1634 /* Assets.xcassets in Resources */,
+				32AAB81726754287008F1634 /* Rooms.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				32AAB7C926753886008F1634 /* ContentView.swift in Sources */,
 				32AAB7C726753886008F1634 /* RoomsApp.swift in Sources */,
+				32AAB7F826753B4B008F1634 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
